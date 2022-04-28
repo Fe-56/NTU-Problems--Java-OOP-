@@ -16,21 +16,21 @@ public class MovableCircle implements Movable{
 
     @Override
     public void moveUp(){
-        this.center.y -= this.center.ySpeed;
+        this.center.moveUp();
     }
 
     @Override
     public void moveDown(){
-        this.center.y += this.center.ySpeed;
+        this.center.moveDown();
     }
 
     @Override
     public void moveLeft(){
-        this.center.x -= this.center.xSpeed;
+        this.center.moveLeft();
     }
 
     @Override
     public void moveRight(){
-        this.center.x += this.center.xSpeed;
+        this.center.moveRight();
     }
 }
