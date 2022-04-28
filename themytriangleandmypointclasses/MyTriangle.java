@@ -1,4 +1,4 @@
-package themytriangleandmypointclass;
+package themytriangleandmypointclasses;
 
 public class MyTriangle {
     private MyPoint v1;

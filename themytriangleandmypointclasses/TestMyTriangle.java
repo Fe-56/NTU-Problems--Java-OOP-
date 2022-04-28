@@ -1,4 +1,4 @@
-package themytriangleandmypointclass;
+package themytriangleandmypointclasses;
 
 public class TestMyTriangle {
     public static void main(String[] args){
